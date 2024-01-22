@@ -10,7 +10,7 @@ const AppHeader = () => {
 
     return (
         <>
-            <header className="bg-[#FAFAFA] shadow py-4 sm:py-2 rounded-full">
+            <header className="container mx-auto bg-[#FAFAFA] shadow py-4 sm:py-2 rounded-full">
                 <div className="container mx-auto px-4 sm:px-6 flex items-center justify-between">
 
                     <a href="#" className="block">
