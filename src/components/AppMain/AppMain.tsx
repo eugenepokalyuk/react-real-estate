@@ -181,14 +181,14 @@ const AppMain = () => {
                     <p className="text-gray-700 mt-6 mb-6 w-full max-w-[435px] text-base">
                         Lorem ipsum dolor sit amet consectetur. Feugiat ut aliquet sit pellentesque sollicitudin. Egestas faucibus lacus diam in senectus consectetur. Mattis elit adipiscing quisque tellus scelerisque vehicula ante nunc.
                     </p>
-                    <div className="flex max-sm:flex max-sm:flex-col max-sm:gap-2">
+                    <div className="flex max-sm:flex max-sm:flex-col max-sm:gap-2 w-full">
                         <input
                             type="email"
-                            className="appearance-none w-full max-w-[438px] block bg-white text-gray-700 border border-gray-200 rounded-full px-6 py-[18px] leading-tight focus:outline-none focus:bg-white focus:border-gray-500 text-base"
+                            className="w-full appearance-none block bg-white text-gray-700 border border-gray-200 rounded-full px-6 py-[18px] leading-tight focus:outline-none focus:bg-white focus:border-gray-500 text-base"
                             placeholder="Enter your email"
                         />
                         <button
-                            className="text-white bg-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-300 rounded-full px-6 py-[18px] ml-4 text-base ml-[-50px] max-sm:ml-0"
+                            className="w-full text-white bg-black hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-300 rounded-full px-6 py-[18px] ml-4 text-base ml-[-50px] max-sm:ml-0"
                         >
                             Get a Quote
                         </button>
