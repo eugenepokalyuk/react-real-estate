@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import { ReactComponent as Search } from '../../images/icon-search.svg';
-import { ReactComponent as Logo } from '../../images/icon-logo.svg';
-import { ReactComponent as MenuIcon } from '../../images/menu-icon.svg'; // Import a menu icon for mobile view
-import { ReactComponent as CloseIcon } from '../../images/close-icon.svg'; // Import a close icon for mobile view
+import { useState } from 'react';
 import { Link } from "react-router-dom";
+import { ReactComponent as CloseIcon } from '../../images/close-icon.svg'; // Import a close icon for mobile view
+import { ReactComponent as Logo } from '../../images/icon-logo.svg';
+import { ReactComponent as Search } from '../../images/icon-search.svg';
+import { ReactComponent as MenuIcon } from '../../images/menu-icon.svg'; // Import a menu icon for mobile view
 
 const AppHeader = () => {
     const [isMenuOpen, setMenuOpen] = useState(false);
@@ -45,20 +45,18 @@ const AppHeader = () => {
                 </div>
                 {/* Mobile Menu */}
                 {isMenuOpen && (
-                    <div className="fixed w-full top-0 left-[50%] -translate-x-1/2 h-screen bg-[#FAFAFA] bg-[#FAFAFA] shadow z-10 p-9 bg-gradient-to-r from-[#c2dee7] to-[#fad9ba]">
+                    <div className="fixed w-full top-0 left-[50%] -translate-x-1/2 min-h-screen h-full bg-[#FAFAFA] bg-[#FAFAFA] shadow z-10 md:p-9 bg-gradient-to-r from-[#c2dee7] to-[#fad9ba]">
                         {/* Place mobile menu items here */}
-                        <ul className='flex flex-col gap-4 p-4'>
+                        <ul className='flex flex-col gap-1 p-2 md:gap-4 md:p-4 w-full'>
                             <li className='text-right flex justify-between mb-8'>
                                 <Link to="#" className="block">
                                     <Logo className='mb-2' />
                                 </Link>
 
-                                <button onClick={() => setMenuOpen(!isMenuOpen)} className="text-gray-600 hover:text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-300 rounded-lg">
+                                <button onClick={() => setMenuOpen(!isMenuOpen)} className="text-gray-600 hover:text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-300 rounded-lg ">
                                     {isMenuOpen ? <CloseIcon /> : <MenuIcon />}
                                 </button>
                             </li>
-
-                            {/* from #c2dee7 to #fad9ba */}
 
                             <li className='border-b border-gray bg-[#fff]/90 px-2 py-3 rounded-2xl' onClick={() => setMenuOpen(!isMenuOpen)}>
                                 <Link to="#" className="text-gray-600 hover:text-gray-800 px-3 py-2 rounded-md text-sm font-medium text-base">About us</Link>

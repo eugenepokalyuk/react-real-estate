@@ -1,28 +1,21 @@
-import React, { useRef, useState } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
-
 import { Navigation, Pagination } from 'swiper/modules';
-
-import houseImage from '../../images/houseImage.png'; // Replace with the actual path to the house image
-import houseImage2 from '../../images/houseImage2.png'; // Replace with the actual path to the house image
-
-import { ReactComponent as AiOutlineMessage } from '../../images/messages.svg';
-import { ReactComponent as AiOutlineTag } from '../../images/sms-tracking.svg';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import { ReactComponent as AiOutlineUserAdd } from '../../images/edit-2.svg';
-
-import { ReactComponent as Star } from '../../images/star.svg';
-import { ReactComponent as StarDisabled } from '../../images/star-disable.svg';
+import houseImage from '../../images/houseImage.png';
+import houseImage2 from '../../images/houseImage2.png';
+import consultingImage from '../../images/marketing.png';
+import { ReactComponent as AiOutlineMessage } from '../../images/messages.svg';
 import projectImage1 from '../../images/slider-1.jpeg';
 import projectImage2 from '../../images/slider-2.jpeg';
 import projectImage3 from '../../images/slider-3.jpeg';
 import projectImage4 from '../../images/slider-4.jpeg';
 import projectImage5 from '../../images/slider-5.jpeg';
-import consultingImage from '../../images/marketing.png';
+import { ReactComponent as AiOutlineTag } from '../../images/sms-tracking.svg';
+import { ReactComponent as StarDisabled } from '../../images/star-disable.svg';
+import { ReactComponent as Star } from '../../images/star.svg';
 
 const AppMain = () => {
     const projects = [
@@ -40,7 +33,7 @@ const AppMain = () => {
                     <p className="text-gray-700 mb-[15px] w-full max-w-[435px] text-sm">
                         Welcome to Realstate
                     </p>
-                    <h2 className="text-5xl font-bold mb-2 text-[67px] max-sm:text-[42px]">Manage Your Property</h2>
+                    <h2 className="font-bold mb-2 text-[28px] md:text-[50px]">Manage Your Property</h2>
                     <p className="text-gray-700 mt-6 mb-6 w-full max-w-[435px] text-base">
                         Your will have everything nearby supermarket, buses, station, the carmen neighborhood, etc
                     </p>
@@ -103,7 +96,7 @@ const AppMain = () => {
                 <div className="mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-left pb-12">
                         <h2 className="text-base font-light">Best Project of the Years</h2>
-                        <h1 className="mt-4 text-[50px] leading-8 font-semibold tracking-tight text-gray-900 sm:text-5xl">
+                        <h1 className="mt-4 text-[28px] md:text-[50px] leading-8 font-semibold tracking-tight text-gray-900 sm:">
                             Our recent projects
                         </h1>
                     </div>
@@ -145,12 +138,12 @@ const AppMain = () => {
 
             <section className="py-12 bg-white">
                 <div className='m-auto max-w-[785px] text-center mb-[45px]'>
-                    <h2 className="text-[50px] font-semibold">We are a global, boutique real estate brokerage</h2>
+                    <h2 className="text-[28px] md:text-[50px] font-semibold">We are a global, boutique real estate brokerage</h2>
                 </div>
                 <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap justify-between items-center">
 
                     <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-                        <h2 className="text-[38px] font-semibold mb-6">The transfer of real estate</h2>
+                        <h2 className="text-[28px] md:text-[38px] font-semibold mb-6">The transfer of real estate</h2>
                         <p className="text-black text-base max-w-[474px]">
                             Lorem ipsum dolor sit amet consectetur. Feugiat ut aliquet sit pellentesque sollicitudin. Egestas faucibus lacus diam in senectus consectetur. Mattis elit adipiscing quisque tellus scelerisque vehicula ante nunc. Tellus consequat nisl quis nisl justo.
                         </p>
@@ -163,15 +156,15 @@ const AppMain = () => {
 
                         <div className="flex gap-12 max-sm:hidden">
                             <div className="mr-10">
-                                <span className="font-bold text-[67px]">12+</span>
+                                <span className="font-bold text-[28px] md:text-[50px]">12+</span>
                                 <p>Customers</p>
                             </div>
                             <div className="mr-10">
-                                <span className="font-bold text-[67px]">14+</span>
+                                <span className="font-bold text-[28px] md:text-[50px]">14+</span>
                                 <p>Offices</p>
                             </div>
                             <div>
-                                <span className="font-bold text-[67px]">10+</span>
+                                <span className="font-bold text-[28px] md:text-[50px]">10+</span>
                                 <p>Students</p>
                             </div>
                         </div>
@@ -184,7 +177,7 @@ const AppMain = () => {
             {/* max-h-[450px] */}
             <section className="container max-h-[450px] mx-auto px-6 py-8 flex justify-between rounded-xl items-center background-image mt-8 max-sm:flex max-sm:flex-col-reverse max-sm:max-h-full">
                 <div className="flex-1">
-                    <h2 className="text-5xl font-bold mb-2 text-[50px]">Subscribe Our Newsletter</h2>
+                    <h2 className="text-[28px] md:text-[50px] font-bold mb-2">Subscribe Our Newsletter</h2>
                     <p className="text-gray-700 mt-6 mb-6 w-full max-w-[435px] text-base">
                         Lorem ipsum dolor sit amet consectetur. Feugiat ut aliquet sit pellentesque sollicitudin. Egestas faucibus lacus diam in senectus consectetur. Mattis elit adipiscing quisque tellus scelerisque vehicula ante nunc.
                     </p>
