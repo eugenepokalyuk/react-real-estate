@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-real-estate/static/css/main.d9e7fc80.css",
-    "main.js": "/react-real-estate/static/js/main.0a43a76a.js",
+    "main.css": "/react-real-estate/static/css/main.15e38d80.css",
+    "main.js": "/react-real-estate/static/js/main.dca9fd48.js",
     "static/js/787.b305c341.chunk.js": "/react-real-estate/static/js/787.b305c341.chunk.js",
     "static/media/houseImage2.png": "/react-real-estate/static/media/houseImage2.22bff5e37982d75b2718.png",
     "static/media/slider-5.jpeg": "/react-real-estate/static/media/slider-5.22bff5e37982d75b2718.jpeg",
@@ -21,12 +21,12 @@
     "static/media/icon-search.svg": "/react-real-estate/static/media/icon-search.974ca4c180c2172e6d3be118aedfe529.svg",
     "static/media/close-icon.svg": "/react-real-estate/static/media/close-icon.1ded1e99216871d2a3aec0714440eb62.svg",
     "static/media/menu-icon.svg": "/react-real-estate/static/media/menu-icon.0d3c31af19b9c297e9457042ec495ba1.svg",
-    "main.d9e7fc80.css.map": "/react-real-estate/static/css/main.d9e7fc80.css.map",
-    "main.0a43a76a.js.map": "/react-real-estate/static/js/main.0a43a76a.js.map",
+    "main.15e38d80.css.map": "/react-real-estate/static/css/main.15e38d80.css.map",
+    "main.dca9fd48.js.map": "/react-real-estate/static/js/main.dca9fd48.js.map",
     "787.b305c341.chunk.js.map": "/react-real-estate/static/js/787.b305c341.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9e7fc80.css",
-    "static/js/main.0a43a76a.js"
+    "static/css/main.15e38d80.css",
+    "static/js/main.dca9fd48.js"
   ]
 }
